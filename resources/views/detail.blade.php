@@ -78,15 +78,6 @@
   border-radius: 30px;
   transition: background 0.5s;
 }
-.btn3{
-  display: inline-block;
-  
-  background: #ff523b;
-  color: #ffff;
-  padding: 8px 30px;
-  margin: 30px 0;
-  border-radius: 30px;
-  transition: background 0.5s;
-}
+
   </style>
 @endsection

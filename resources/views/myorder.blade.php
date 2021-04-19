@@ -3,9 +3,9 @@
 <div class="custum-product">
   <div class="col-sm-10">
     <div class="trending-wrapper">
-    <h3> Корзина</h3>
-    <a href="ordernow" class="btn btn-success">Очередь</a><br><br>
-    @foreach($products as $item)
+    <h3> Мои заказы</h3>
+    
+    @foreach($orders as $item)
     <div class="row searched-item cart-list-devider">
       <div class="col-sm-3">
         <a href="detail/{{$item->id}}">
@@ -15,16 +15,19 @@
       </a>
       </div>
       <div class="col-sm-4">
-        <h4>{{$item->name}}</h4>
-      </div>
-      <div class="col-sm-3">
-        <a href="/removecart/{{$item->cart_id}}" class="btn2">Remove from Cart</a>
+        <div class="">
+          <h4>Названия : {{$item->name}}</h4>
+          <h5>Статус доставки : {{$item->status}}</h5>
+          <h5>Адресс : {{$item->address}}</h5>
+          <h5>Статус оплаты : {{$item->payment_status}}</h5>
+          <h5>Способ оплаты : {{$item->payment_method}}</h5>
+        </div>
       </div>
       </a>
     </div>
     @endforeach
   </div>
-  <a href="ordernow" class="btn btn-success">Очередь</a><br><br>
+ 
   </div>
 </div>
 

@@ -17,7 +17,7 @@ $total = ProductController::cartItem();
         <ul id="MenuItems">
           <li><a href="/  ">Главная</a></li>
           <li><a href="products.html">Товары</a></li>
-          <li><a href="">О нас</a></li>
+          <li><a href="/myorders">Мой заказы</a></li>
           <li><a href="">Контакты</a></li>
           <li class="cart">
             <a href="/cartlist"><ion-icon name="basket"></ion-icon>Cart {{$total}} </a>
