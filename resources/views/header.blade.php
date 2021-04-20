@@ -15,24 +15,25 @@ $total = ProductController::cartItem();
       </div>
       <nav>
         <ul id="MenuItems">
-          <li><a href="/  ">Главная</a></li>
-          <li><a href="products.html">Товары</a></li>
-          <li><a href="/myorders">Мой заказы</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="/  ">{{__('profile.main_page')}}</a></li>
+          <li><a href="/myorders">{{__('profile.orders')}}</a></li>
           <li class="cart">
-            <a href="/cartlist"><ion-icon name="basket"></ion-icon>Cart {{$total}} </a>
+            <a href="/cartlist"><ion-icon name="basket"></ion-icon>{{__('profile.cart')}} ({{$total}}) </a>
           </li>
           @if(Session::has('user'))
           <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{Session::get('user')['name']}}
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="/logout">Logout</a></li>
+            <li><a href="/logout">{{__('profile.logout')}}</a></li>
           </ul>
           </li>
           @else
           <li class="">
             <a href="/login">Login</a>
+          </li>
+           <li class="">
+            <a href="/register">Register</a>
           </li>
           @endif
         </ul>
@@ -40,7 +41,7 @@ $total = ProductController::cartItem();
         <div class="form-group">
           <input type="text" name="query" class="form-control search-box" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Искать</button>
+        <button type="submit" class="btn btn-default">{{__('profile.search')}}</button>
       </form>
       </nav>
       <!-- <img src="images/cart.png" width="30px" height="30px;"> -->

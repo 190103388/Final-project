@@ -24,9 +24,9 @@
    </div>
 </div> -->
 <div class="small-container single-product">
+        <a class="go_back" href="http://localhost/Project-en/Final-project/public/">Go back</a>
     <div class="row">
       <div class="col-2">
-        <a class="go_back" href="http://localhost/Project-en/Final-project/public/">Go back</a>
         <img src="{{$products['gallery']}}" width="100%" id="productImg">
       </div>
       <div class="col-2">
@@ -37,7 +37,7 @@
           <input type="hidden" name="product_id" value={{$products['id']}}>
         <button class="btn2">Добавить в Корзину</button>
         </form>
-        <a href="#" class="btn3">Купить прямо сейчас</a>
+        <!-- <a href="#" class="btn3">Купить прямо сейчас</a> -->
         <h3>Общая Информация <i class="fa fa-indent" ></i> </h3>
         <br>
         <p>{{$products['description']}}</p>

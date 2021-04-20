@@ -36,7 +36,7 @@
   </a>
 </div>
 	<div class="trending-wrapper">
-		<h3> Tending Products</h3>
+		<h3> Products</h3>
 		@foreach($products as $item)
 		<div class="trending-item">
 			<a href="detail/{{$item['id']}}">
@@ -48,13 +48,13 @@
           <div class="col-4">
         <img class="trending-image" src="{{$item['gallery']}}">
         <h4>{{$item['name']}}</h4>
-        <div class="rating">
+        <!-- <div class="rating">
           <i class="fa fa-star" ></i>
           <i class="fa fa-star" ></i>
           <i class="fa fa-star" ></i>
           <i class="fa fa-star" ></i>
           <i class="fa fa-star-o"></i>
-        </div>
+        </div> -->
 
         <p>{{$item['price']}}.0 KZT</p>
       </div>

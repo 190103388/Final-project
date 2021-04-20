@@ -2,6 +2,7 @@
 @section("content")
 <div class="custum-product">
   <div class="col-sm-10">
+    <a class="go_back" href="http://localhost/Project-en/Final-project/public/">Go back</a>
     <div class="trending-wrapper">
     <h3> Корзина</h3>
     <a href="ordernow" class="btn btn-success">Очередь</a><br><br>
@@ -24,7 +25,7 @@
     </div>
     @endforeach
   </div>
-  <a href="ordernow" class="btn btn-success">Очередь</a><br><br>
+  <!-- <a href="ordernow" class="btn btn-success">Очередь</a><br><br> -->
   </div>
 </div>
 

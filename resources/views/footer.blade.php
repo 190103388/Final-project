@@ -3,8 +3,8 @@
 		<div class="container2">
 			<div class="row">
 				<div class="footer-col-1">
-					<h4>Скачавайте Наше Приложения</h4>
-					<p>Скачивайте приложения на IOS и Android</p>
+					<h4>{{__('profile.download')}}</h4>
+					<p>{{__('profile.ios')}}</p>
 					<div class="app-logo">
 						<img src="{{ URL::to('/img/images/play-store.png') }}">
 						<img src="{{ URL::to('/img/images/app-store.png') }}">
@@ -12,10 +12,10 @@
 				</div>
 				<div class="footer-col-2">
 					<img src="{{ URL::to('/img/logo-white.png') }}">
-					<p>Мебель от Производителя <br>Предлагает вам ленейку новинок корпусной, мягкой мебели, столов, стульев и штор для создания уюта в доме</p>
+					<p>{{__('profile.des')}}</p>
 				</div>
 				<div class="footer-col-3">
-					<h4>Партнёры</h4>
+					<h4>{{__('profile.kent')}}</h4>
 					<ul>
 						<li>Kaspi Bank</li>
 						<li>AlfaBank</li>
