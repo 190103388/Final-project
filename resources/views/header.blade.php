@@ -11,7 +11,7 @@ $total = ProductController::cartItem();
   <div class="container2">
     <div class="navbar">
       <div class="logo">
-        <a href="/"><img src="{{ URL::to('/img/logo.png') }}" width="200px" style="padding-top: 30px;" ></a>
+        <a href="/"><img src="{{ URL::to('/img/logo2.png') }}" width="200px" style="padding-top: px;" ></a>
       </div>
       <nav>
         <ul id="MenuItems">

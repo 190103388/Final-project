@@ -36,6 +36,7 @@
   </div>
 	
 </div>
+</div>
 <style type="text/css">
   .rating .fa{
   color: #ff523b;

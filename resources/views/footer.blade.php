@@ -11,8 +11,7 @@
 					</div>
 				</div>
 				<div class="footer-col-2">
-					<img src="{{ URL::to('/img/logo-white.png') }}">
-					<p>{{__('profile.des')}}</p>
+					<img src="{{ URL::to('/img/logo2.png') }}">
 				</div>
 				<div class="footer-col-3">
 					<h4>{{__('profile.kent')}}</h4>
@@ -34,13 +33,13 @@
 				</div>
 			</div>
 			<hr>
-			<p class="copyrigth">Copyrigth 2021 - Arsen Ulykbekov</p>
+			<p class="copyrigth">Copyrigth 2021 - Ali Tulebergenov</p>
 		</div>
 </div>
 
 <style type="text/css">
 	.footer{
-	background: #000;
+	background: #333333;
 	color: #8a8a8a;
 	font-size: 14px;
 	padding: 60px 0 20px;

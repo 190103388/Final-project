@@ -20,10 +20,10 @@ Route::get('/login', function () {
     return view('login');
 });
 
-// Route::get('/{lang}', function ($lang) {
-// 	App::setlocale($lang);
-//     return view('/login');
-// });
+Route::get('/{lang}', function ($lang) {
+	App::setlocale($lang);
+    return view('/login');
+});
 
 Route::get('/logout', function () {
 	Session::forget('user');

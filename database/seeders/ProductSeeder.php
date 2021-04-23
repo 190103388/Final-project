@@ -16,36 +16,53 @@ class ProductSeeder extends Seeder
     public function run()
     {
         //
-         DB::table('product')->insert(
+         DB::table('products')->insert(
          	[
          		[
-        	'name'=>'Қыз-Жібек',
-        	'price'=>' 135000',
-        	'description'=>'Good',
+        	'name'=>'Смартфон iPhone 12 64GB, Blue',
+        	'price'=>' 459890',
+        	'description'=>'Модель
+                            iPhone 12
+                            Цвет задней панели
+                            синий
+                            Серия смартфона
+                            iPhone 12',
         	'rank'=>'4',
-        	'gallery'=>'https://images.satu.kz/111351851_w640_h640_komplekt-mebeli-dlya.jpg'
+        	'gallery'=>'https://alser.kz/products/smartfony-apple//vjbdOi187l/smartfon-iphone-12-64gb-blue-w160.png'
        			 ],
        			 [
-        	'name'=>'Roza Bella ',
-        	'price'=>'490000',
-        	'description'=>'Good',
+        	'name'=>'Смартфон iPhone 11 128GB ',
+        	'price'=>'369890',
+        	'description'=>'Slim Box, Yellow',
         	'rank'=>'4.5',
-        	'gallery'=>'https://interiero.kz/upload/iblock/da4/da48ece545340ffc6419def05d1d15c8.jpg'
+        	'gallery'=>'https://alser.kz/products/smartfony-apple//kwgJmtAKa/smartfon-iphone-11-128gb-yellow-w160.png'
        			 ],
        			 [
-        	'name'=>'Sakuea',
-        	'price'=>'359000',
-        	'description'=>'Good',
+        	'name'=>'Смартфон iPhone 12 Pro Max 256GB Gold' ,
+        	'price'=>'734890',
+        	'description'=>'Модель
+                            iPhone 12 Pro Max
+                            Цвет задней панели
+                            золотистый
+                            Серия смартфона
+                            iPhone 12 Pro Max',
         	'rank'=>'5',
-        	'gallery'=>'https://spim.ru/imgup/f25544_17294___.jpg'
+        	'gallery'=>'https://alser.kz/products/smartfony-apple//9Xp1WIV4D/smartfon-iphone-12-pro-max-256gb-gold-w160.png'
        			 ],
        			 [
-        	'name'=>'Версаче 2',
-        	'price'=>'159000',
-        	'description'=>'Good',
+        	'name'=>'Смартфон iPhone 12 64GB Green',
+        	'price'=>'459 890',
+        	'description'=>'ЗАРЯДНОЕ УСТРОЙСТВО И НАУШНИКИ В КОМПЛЕКТ НЕ ВХОДЯТ!',
         	'rank'=>'3.5',
-        	'gallery'=>'https://alyans-magazin.com/4843-thickbox_default/krovat-veneciya-arbor-drev.jpg'
+        	'gallery'=>'https://alser.kz/products/smartfony-apple//oXBJPU4dZ/smartfon-iphone-12-64gb-green-w160.png'
        			 ],
+                 [
+            'name'=>'Смартфон Apple iPhone 11 128Gb Slim Box Black',
+            'price'=>'322000',
+            'description'=>'- технология nfc: да - тип экрана: цветной IPS, Liquid',
+            'rank'=>'3.5',
+            'gallery'=>'https://cdn-kaspi.kz/shop/medias/sys_master/images/images/h90/h99/26542863613982/apple-iphone-11-128gb-slim-box-cernyj-100692388-1.png'
+                 ],
 
         	]
      );
